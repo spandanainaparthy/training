@@ -1,0 +1,2 @@
+line 7
+line 6 from the bugfix branch
