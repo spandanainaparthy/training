@@ -1,0 +1,30 @@
+1. mkdir Test
+2. cat >employee list
+   cat >skillset
+3. mkdir Test2
+   
+   I)symbolic link- ln -s file3 slink_file3
+   hardlink- cat hlink_file2
+         (contents of file2 will display)
+   II)rm file2
+      cat hlink_file2
+      ls -l
+   III)symbolic link: link to another name in the file system.
+       hard link: when a file is linked to a inode, a hard link creates a file with a link to the same underlying inode.
+4. pwd
+   /home/user2/linux
+   chmod u+w file1
+   ls
+   cat file1
+   ls -l
+5. chmod u-w file1
+   ls -l
+6. chmod o+w file1
+   ls -l
+7. chmod o-w file1
+   ls -l
+8. chgrp employeelist user3
+   ls -l
+9. chown user5 file1 
+   ls -l
+10. wc employees

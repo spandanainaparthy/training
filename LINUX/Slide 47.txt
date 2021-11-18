@@ -1,0 +1,13 @@
+1. >file1
+2. cat >file1
+3. >file2
+   cat >file2
+4. cat file1 
+   cat file2
+5. cat file1 file2
+6. cat file1 file2 >file3
+7. 
+8. ls file1 file2 file3 file4 file5 2>errfile
+9. cat file1 file2 file3 file4 file5 >file10
+   ls file10 2>errfile
+10. cp file1 file6 2>errfile
