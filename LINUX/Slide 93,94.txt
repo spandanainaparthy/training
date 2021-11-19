@@ -1,0 +1,17 @@
+vi slide94
+press "i" to insert.
+​The basic calculator, bc, can do calculations to any precision that you specify.
+Therefore, if you know how to calculate pi and want to know its value to 20, 50, or 200 places, for examples. use bc.
+This tool can add, subtract, multiply, divide, and raise a number to apower. It can take square rots, compute sines and cosines of angles, calculate exponentials and logarithms, and handle arctangents and bessel functions.
+1. press "I" at the beginning of the current line.
+Then invoke the last line mode.
+2. to remove the second line, type "dd". The entire line is removed.
+   to undo, type "u".
+3. to check for the occurrences of bc, type "/bc"
+4. to remove the word number, put the cursor on "number" and enter "dw"
+5. to replace c with C, type :1,s/c/C/g
+6. to replace space with /t, type ":1,$s/ /t/g"
+7. to copy line 1 to 3 and paste at the end of the file, type "123yy" (copy) and move the cursor at the end and type "p" (paste)
+8. to delete the last 3 line, type "3dd"
+9. to undo the last 2 changes, type "2u"
+10. :w bc v2
