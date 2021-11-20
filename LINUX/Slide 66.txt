@@ -1,0 +1,6 @@
+1. tr [:upper] [:lower] file1
+2. tr -d/[0-9]* <file1
+3. tr -d " " <file1
+4. tr -s " " <file1
+5. tr "[a-z]" "[A-Z]" <file1
+6. tr "[a,e,i,o,u]" "[A,E,I,O,U]" <file1 

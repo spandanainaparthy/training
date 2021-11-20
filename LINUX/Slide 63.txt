@@ -1,0 +1,6 @@
+1. mkdir folder1
+   ls -l
+2. sort -r file1
+3. 
+4. 
+5. sort -S [-o sortedfile] file1

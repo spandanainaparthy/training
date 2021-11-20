@@ -6,4 +6,8 @@
    cat file2
 5. cat file1 file2
 6. cat file1 file2 >file3
+7. cat file1, file2, file3, file4, file5
+8. cat file1, file2, file3, file4, file5 2>errorlog
+9. cat file1 file2 file3 file4 file5 >file10 2>&1
+10. cp file1 file2 2>errorlog
 
