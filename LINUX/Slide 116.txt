@@ -1,0 +1,6 @@
+1. sort file >outfile &
+2. nohup sort +0 -1 -o outfilename <filename &
+3. The process would be still running.
+4. sleep 5
+5. ps
+   ps -l pid
