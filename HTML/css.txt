@@ -1,0 +1,8 @@
+<html>
+<head>
+<h1 style="color:blue";>123</h1>
+<h2 style="color:blue";>456</h2>
+<p style="color:Blue;">A paragraph</p>
+<p style="color:Red;">Class</p>
+</head>
+</html>
